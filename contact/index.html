@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <title>My Portfolio</title>
+  <div id="main">
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a  href="../home/" class="h1">Home</a>
+      <a href="../about/" class="h1">About</a>
+      <a href="../mywork/" class="h1">My Work</a>
+      <a href="../contact/" class="h1">Contact</a>
+      </div>
+      <div id="main">
+
+        <button class="openbtn" onclick="openNav()"> ☰ Contact</button>
+      </div>
+      <script>
+       
+      function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      }
+      function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+      
+      </div>
+      <div>
+  
+</head>
+
+<body>
+    <h1 style="font-family: Courier;font-size: 60px; text-align:left ;margin-left: 260px;"> Contact
+
+        <strong><p style="font-family: courier; font-size: 16px;">I’m interested in freelance opportunities – especially ambitious or large projects. <br> However, if you have other request or question, don’t hesitate my inbox is always open.  
+
+        </h1>
+        <center>
+            <a href="https://github.com/m3t4kl1"><img src="../images/github.png " alt="My Github" style="width:32px;height:32px;"></a>        
+            &nbsp;&nbsp;&nbsp;<a href="https://twitter.com/m3tkali"><img src="../images/twitter-sign.png" alt="My twitter" style="width:32px;height:32px;"></a>           
+            &nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/metkali-aymane"><img src="../images/linkedin.png" alt="My LinkedIn" style="width:32px;height:32px;"></a>
+            </center>
+    </p>            
+
+        </body>
+
+        <footer  id ="footer" style="font-family: Courier; position: fixed;">Copyright © Aymane Metkali</footer>
+</html>
